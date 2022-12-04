@@ -12,6 +12,9 @@
     <!-- swiperJs -->
 
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/styles.css" />
 
@@ -79,7 +82,7 @@
               <img src="/assets/img/me.jpg" alt="picture of me" />
             </div>
             <div class="home__data">
-              <h1 class="home__title">Hi, I'm Karl Enteria</h1>
+              <h1 class="home__title" id="typeit">Hi, I'm</h1>
               <h3 class="home__subtitle">Full Stack Developer</h3>
               <p class="home__description">
                 <img
@@ -110,12 +113,13 @@
       <span class="section__subtitle">My Introduction</span>
       <div class="about__container container grid">
         <img
+          data-aos="fade-down-right"
           src="/assets/img/about-karl.jpg"
           alt="about me"
           class="about__img"
         />
         <div class="about__data">
-          <p class="about__description">
+          <p class="about__description" data-aos="fade-down-left">
             Hi, I'm a Full Stack Developer, born and lives in Baguio City,
             Philippines. I'm a graduate of AWS Re/Start Program where we were
             taught about cloud technology basics. Currently, I'm studying Full
@@ -327,6 +331,10 @@
       <i class="uil uil-arrow-up scrollup__icon"></i>
     </a>
 
+    <!-- TypeIt -->
+    <script src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <!-- swiper JS -->
     <script src="assets/js/swiper-bundle.min.js"></script>
 

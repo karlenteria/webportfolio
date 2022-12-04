@@ -80,3 +80,36 @@ themeButton.addEventListener("click", () => {
   localStorage.setItem("selected-theme", getCurrentTheme());
   localStorage.setItem("selected-icon", getCurrentIcon());
 });
+
+new TypeIt("#typeit", {
+  lifeLike: false,
+  speed: 0,
+})
+  .type(" ")
+  .pause(428)
+  .type("K")
+  .pause(207)
+  .type("a")
+  .pause(83)
+  .type("r")
+  .pause(298)
+  .type("l")
+  .pause(200)
+  .type(" ")
+  .pause(285)
+  .type("E")
+  .pause(285)
+  .type("n")
+  .pause(91)
+  .type("t")
+  .pause(132)
+  .type("e")
+  .pause(134)
+  .type("r")
+  .pause(140)
+  .type("i")
+  .pause(102)
+  .type("a")
+  .go();
+
+AOS.init();
