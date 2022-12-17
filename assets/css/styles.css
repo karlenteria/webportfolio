@@ -195,10 +195,12 @@ img {
 .nav__toggle:hover {
   color: var(--first-color);
 }
+
 .awsrestart {
   width: auto;
   height: 100px;
 }
+
 @media screen and (max-width: 767px) {
   .nav__menu {
     position: fixed;
@@ -253,7 +255,7 @@ img {
   bottom: 0;
 }
 
-.home__img > img {
+.home__img>img {
   border-radius: 20px;
 }
 
@@ -443,7 +445,7 @@ img {
   right: -0.5rem;
 }
 
-.swiper-container-horizontal > .swiper-pagination-bullet {
+.swiper-container-horizontal>.swiper-pagination-bullet {
   bottom: -2.5rem;
 }
 
@@ -748,6 +750,7 @@ img {
 }
 
 @media screen and (min-width: 1024px) {
+
   .header,
   .main,
   .footer__container {
@@ -778,8 +781,14 @@ img {
     right: -3.5rem;
   }
 
-  .swiper-container-horizontal > .swiper-pagination-bullet {
-    bottom: -4.5rem;
+  /* .swiper-container-horizontal>.swiper-pagination-bullet {
+    bottom: 110px;
+
+  } */
+
+  .swiper-pagination-bullet {
+    position: relative;
+    bottom: -12px;
   }
 
   .contact__form {
