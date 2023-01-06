@@ -603,6 +603,22 @@ img {
     grid-template-columns: 0.25fr 3fr;
   }
 
+  .swiper-pagination-bullet {
+    position: relative;
+    bottom: -80px;
+  }
+
+  .portfolio__content {
+    display: flex;
+    width: 100%;
+  }
+
+  .portfolio__date {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
   .project__img {
     width: 200px;
   }
@@ -620,6 +636,11 @@ img {
   .home__img {
     order: 1;
     justify-self: center;
+  }
+
+  .swiper-pagination-bullet {
+    position: relative;
+    bottom: -50px;
   }
 
   .about__container,
@@ -727,6 +748,11 @@ img {
     align-items: center;
   }
 
+  .swiper-pagination-bullet {
+    position: relative;
+    bottom: -80px;
+  }
+
   .footer__container {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -788,7 +814,7 @@ img {
 
   .swiper-pagination-bullet {
     position: relative;
-    bottom: -12px;
+    bottom: -60px;
   }
 
   .contact__form {
